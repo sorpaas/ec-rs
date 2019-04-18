@@ -5,5 +5,9 @@ license = "Apache-2.0"
 authors = ["Wei Tang <hi@that.world>"]
 description = "Elliptic Curve Cryptography in Pure Rust"
 repository = "https://github.com/sorpaas/ec-rs"
+edition = "2018"
 
 [dependencies]
+num-bigint = "0.2"
+num-traits = "0.2"
+num-integer = "0.1"
